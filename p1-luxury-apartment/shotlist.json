@@ -1,0 +1,502 @@
+{
+  "project": "P1 - Luxury Residence Showcase",
+  "label": "Self-initiated sample portfolio project - fictional brand - not commissioned client work",
+  "brand": {
+    "name": "VERANE",
+    "sub": "RESIDENCES",
+    "location": "SYDNEY  NSW",
+    "editor": "Edited by Maria Zha-Zha C Bio"
+  },
+  "format": {
+    "w": 1920,
+    "h": 1080,
+    "fps": 25,
+    "duration": 57.76
+  },
+  "music": {
+    "bpm": 78.95,
+    "file_glob": "music/P1_music",
+    "start_in_track": 0.355,
+    "gain_db": 0,
+    "tempo_ratio": 0.9928
+  },
+  "grade": {
+    "lut": "luts/P1_look.cube",
+    "lut_mix_note": "If a LUT is present it replaces the built-in grade below.",
+    "builtin": "eq=contrast=1.06:saturation=0.90:gamma=1.02,colorbalance=rs=-0.01:bs=0.02:rh=0.03:gh=0.01:bh=-0.03,vignette=angle=PI/7"
+  },
+  "shots": [
+    {
+      "id": "S01",
+      "start": 0,
+      "dur": 4.56,
+      "section": "ESTABLISHING",
+      "shot": "Rear facade and terrace, slow forward glide",
+      "framing": "Wide aerial, building on right third, horizon on upper third",
+      "move": "Drone push-in / slow orbit",
+      "speed": 1,
+      "push": 0.04,
+      "src_in": 0,
+      "trans_in": "fadeblack",
+      "trans_dur": 1
+    },
+    {
+      "id": "S02",
+      "start": 4.56,
+      "dur": 3.04,
+      "section": "ESTABLISHING",
+      "shot": "Reverse angle across lawn and terrace",
+      "framing": "Wide, symmetrical, verticals straight",
+      "move": "Gimbal tilt-up",
+      "speed": 0.834,
+      "push": 0,
+      "src_in": 2,
+      "trans_in": "cut"
+    },
+    {
+      "id": "S03",
+      "start": 7.6,
+      "dur": 3.04,
+      "section": "ENTRANCE",
+      "shot": "Gallery hallway walk-through",
+      "framing": "Medium-wide, door centre frame",
+      "move": "Gimbal walk-in",
+      "speed": 0.834,
+      "push": 0,
+      "src_in": 0,
+      "trans_in": "cut"
+    },
+    {
+      "id": "S04",
+      "start": 10.64,
+      "dur": 4.56,
+      "section": "LIVING",
+      "shot": "Open-plan living, glide into the lounge",
+      "framing": "Wide 16-24mm, camera at chest height, verticals straight",
+      "move": "Slider / gimbal truck left-to-right",
+      "speed": 0.834,
+      "push": 0,
+      "src_in": 8,
+      "trans_in": "fade",
+      "trans_dur": 0.5
+    },
+    {
+      "id": "S05",
+      "start": 15.2,
+      "dur": 3.04,
+      "section": "LIVING",
+      "shot": "Lounge chairs and marble table detail",
+      "framing": "Tight detail, shallow depth of field",
+      "move": "Slow push or rack focus",
+      "speed": 0.834,
+      "push": 0.03,
+      "src_in": 4,
+      "trans_in": "cut"
+    },
+    {
+      "id": "S06",
+      "start": 18.24,
+      "dur": 4.56,
+      "section": "KITCHEN",
+      "shot": "Kitchen island glide",
+      "framing": "Wide, low-ish, island as foreground lead",
+      "move": "Slow push-in",
+      "speed": 0.834,
+      "push": 0.04,
+      "src_in": 6,
+      "trans_in": "cut"
+    },
+    {
+      "id": "S07",
+      "start": 22.8,
+      "dur": 1.52,
+      "section": "KITCHEN",
+      "shot": "Bar island and tapware detail",
+      "framing": "Macro / tight",
+      "move": "Static or micro slide",
+      "speed": 0.834,
+      "push": 0,
+      "src_in": 12,
+      "trans_in": "cut"
+    },
+    {
+      "id": "S08",
+      "start": 24.32,
+      "dur": 4.56,
+      "section": "BEDROOM",
+      "shot": "Master bedroom, window light",
+      "framing": "Wide symmetrical from doorway",
+      "move": "Slow push-in",
+      "speed": 0.834,
+      "push": 0.05,
+      "src_in": 0,
+      "trans_in": "fade",
+      "trans_dur": 0.5
+    },
+    {
+      "id": "S09",
+      "start": 28.88,
+      "dur": 3.04,
+      "section": "ENSUITE",
+      "shot": "Reveal into the ensuite",
+      "framing": "Tight detail",
+      "move": "Slow slide",
+      "speed": 0.834,
+      "push": 0,
+      "src_in": 6.5,
+      "trans_in": "cut"
+    },
+    {
+      "id": "S10",
+      "start": 31.92,
+      "dur": 4.56,
+      "section": "BATHROOM",
+      "shot": "Vanity, freestanding bath and shower",
+      "framing": "Wide, avoid camera reflection in mirror",
+      "move": "Slow lateral slide",
+      "speed": 0.834,
+      "push": 0,
+      "src_in": 8,
+      "trans_in": "cut"
+    },
+    {
+      "id": "S11",
+      "start": 36.48,
+      "dur": 1.52,
+      "section": "BATHROOM",
+      "shot": "Brass spout filling the bath (Curtis Adams)",
+      "framing": "Macro",
+      "move": "Static, high frame rate",
+      "speed": 0.834,
+      "push": 0,
+      "src_in": 4,
+      "trans_in": "cut"
+    },
+    {
+      "id": "S12",
+      "start": 38,
+      "dur": 3.04,
+      "section": "VIEW",
+      "shot": "Window framing palms and garden",
+      "framing": "Wide, interior frame-within-frame, exposure for outside",
+      "move": "Gimbal push through doorway",
+      "speed": 0.834,
+      "push": 0,
+      "src_in": 5,
+      "trans_in": "cut"
+    },
+    {
+      "id": "S13",
+      "start": 41.04,
+      "dur": 3.04,
+      "section": "OUTDOOR",
+      "shot": "Alfresco dining terrace",
+      "framing": "Wide or top-down",
+      "move": "Drone top-down or slow slide",
+      "speed": 0.834,
+      "push": 0,
+      "src_in": 4,
+      "trans_in": "cut"
+    },
+    {
+      "id": "S14",
+      "start": 44.08,
+      "dur": 1.52,
+      "section": "OUTDOOR",
+      "shot": "Landscaped garden",
+      "framing": "Wide",
+      "move": "Static or slide",
+      "speed": 0.834,
+      "push": 0,
+      "src_in": 0,
+      "trans_in": "cut"
+    },
+    {
+      "id": "S15",
+      "start": 45.6,
+      "dur": 1.52,
+      "section": "DINING",
+      "shot": "Dining room glide",
+      "framing": "Wide",
+      "move": "Static or slide",
+      "speed": 0.834,
+      "push": 0,
+      "src_in": 2,
+      "trans_in": "cut"
+    },
+    {
+      "id": "S16",
+      "start": 47.12,
+      "dur": 3.04,
+      "section": "DINING",
+      "shot": "Art and lighting detail",
+      "framing": "Wide symmetrical",
+      "move": "Slow push-in",
+      "speed": 0.834,
+      "push": 0.03,
+      "src_in": 2,
+      "trans_in": "cut"
+    },
+    {
+      "id": "S17",
+      "start": 50.16,
+      "dur": 3.04,
+      "section": "HIGHLIGHTS",
+      "shot": "Palms and sky, calm hold",
+      "framing": "Wide with clean negative space in lower half",
+      "move": "Very slow push or static",
+      "speed": 1,
+      "push": 0.03,
+      "src_in": 0,
+      "trans_in": "fade",
+      "trans_dur": 0.75
+    },
+    {
+      "id": "S18",
+      "start": 53.2,
+      "dur": 4.56,
+      "section": "CLOSING CARD",
+      "shot": "Brand end card on warm charcoal",
+      "framing": "Graphic",
+      "move": "None",
+      "type": "card",
+      "card_color": "0x141312",
+      "trans_in": "fadeblack",
+      "trans_dur": 0.8
+    }
+  ],
+  "titles": [
+    {
+      "id": "T01",
+      "start": 1,
+      "dur": 3.26,
+      "lines": [
+        {
+          "text": "VERANE",
+          "font": "georgia.ttf",
+          "size": 120,
+          "track": true,
+          "y": 440,
+          "align": "center"
+        },
+        {
+          "text": "RESIDENCES",
+          "font": "Montserrat-Regular.ttf",
+          "size": 30,
+          "track": true,
+          "y": 592,
+          "align": "center",
+          "color": "0xC8B48A"
+        }
+      ],
+      "rule": {
+        "y": 565,
+        "w": 160
+      },
+      "scrim": "full"
+    },
+    {
+      "id": "T02",
+      "start": 4.76,
+      "dur": 2.64,
+      "lines": [
+        {
+          "text": "SYDNEY  NSW",
+          "font": "Montserrat-Regular.ttf",
+          "size": 30,
+          "track": true,
+          "x": 120,
+          "y": 930
+        }
+      ],
+      "rule": {
+        "x": 120,
+        "y": 905,
+        "w": 60
+      },
+      "scrim": "bottom"
+    },
+    {
+      "id": "T03",
+      "start": 11.14,
+      "dur": 3.76,
+      "lines": [
+        {
+          "text": "Light-filled living",
+          "font": "georgiai.ttf",
+          "size": 58,
+          "x": 120,
+          "y": 900
+        }
+      ],
+      "scrim": "bottom"
+    },
+    {
+      "id": "T04",
+      "start": 18.64,
+      "dur": 5.48,
+      "lines": [
+        {
+          "text": "An entertainer’s kitchen",
+          "font": "georgiai.ttf",
+          "size": 58,
+          "x": 120,
+          "y": 900
+        }
+      ],
+      "scrim": "bottom"
+    },
+    {
+      "id": "T05",
+      "start": 24.92,
+      "dur": 6.7,
+      "lines": [
+        {
+          "text": "A private retreat",
+          "font": "georgiai.ttf",
+          "size": 58,
+          "x": 120,
+          "y": 900
+        }
+      ],
+      "scrim": "bottom"
+    },
+    {
+      "id": "T06",
+      "start": 32.32,
+      "dur": 5.48,
+      "lines": [
+        {
+          "text": "Spa-inspired bathrooms",
+          "font": "georgiai.ttf",
+          "size": 58,
+          "x": 120,
+          "y": 900
+        }
+      ],
+      "scrim": "bottom"
+    },
+    {
+      "id": "T07",
+      "start": 41.34,
+      "dur": 8.52,
+      "lines": [
+        {
+          "text": "Indoor-outdoor living",
+          "font": "georgiai.ttf",
+          "size": 58,
+          "x": 120,
+          "y": 900
+        }
+      ],
+      "scrim": "bottom"
+    },
+    {
+      "id": "T08",
+      "start": 50.66,
+      "dur": 2.34,
+      "lines": [
+        {
+          "text": "3 BED   |   2 BATH   |   2 CAR",
+          "font": "Montserrat-Regular.ttf",
+          "size": 34,
+          "track": true,
+          "y": 890,
+          "align": "center",
+          "color": "0xF4EFE6"
+        },
+        {
+          "text": "Open-plan living, alfresco terrace, landscaped garden",
+          "font": "georgiai.ttf",
+          "size": 46,
+          "y": 950,
+          "align": "center"
+        }
+      ],
+      "scrim": "bottom"
+    },
+    {
+      "id": "T09",
+      "start": 53.8,
+      "dur": 3.96,
+      "lines": [
+        {
+          "text": "VERANE",
+          "font": "georgia.ttf",
+          "size": 110,
+          "track": true,
+          "y": 370,
+          "align": "center"
+        },
+        {
+          "text": "RESIDENCES",
+          "font": "Montserrat-Regular.ttf",
+          "size": 28,
+          "track": true,
+          "y": 520,
+          "align": "center",
+          "color": "0xC8B48A"
+        },
+        {
+          "text": "Private inspections by appointment",
+          "font": "georgiai.ttf",
+          "size": 44,
+          "y": 620,
+          "align": "center"
+        },
+        {
+          "text": "Edited by Maria Zha-Zha C Bio",
+          "font": "Montserrat-Regular.ttf",
+          "size": 24,
+          "y": 900,
+          "align": "center",
+          "color": "0xBDB6AA"
+        },
+        {
+          "text": "Self-initiated sample portfolio project  |  Fictional brand  |  Not commissioned client work",
+          "font": "Montserrat-Regular.ttf",
+          "size": 20,
+          "y": 945,
+          "align": "center",
+          "color": "0x8E877C"
+        }
+      ],
+      "rule": {
+        "y": 500,
+        "w": 140
+      }
+    }
+  ],
+  "sfx": [
+    {
+      "file": "sfx/riser_soft.wav",
+      "at": 0,
+      "gain_db": -18
+    },
+    {
+      "file": "sfx/door_open.wav",
+      "at": 7.7,
+      "gain_db": -16
+    },
+    {
+      "file": "sfx/whoosh_soft.wav",
+      "at": 10.39,
+      "gain_db": -20
+    },
+    {
+      "file": "sfx/tap_water.wav",
+      "at": 36.48,
+      "gain_db": -18
+    },
+    {
+      "file": "sfx/whoosh_soft.wav",
+      "at": 49.86,
+      "gain_db": -20
+    },
+    {
+      "file": "sfx/low_hit.wav",
+      "at": 53.2,
+      "gain_db": -16
+    }
+  ]
+}

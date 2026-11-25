@@ -1,0 +1,1 @@
+Move: Slider / gimbal truck left-to-right    Speed: 50\%    Length: 4.8s

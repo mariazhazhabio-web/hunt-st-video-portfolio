@@ -1,0 +1,14 @@
+Footage licences - Project 3 (downloaded 2026-11-22 from Pexels, 2560/2732x1440 files)
+Licence: Pexels License https://www.pexels.com/license/ - free to use and modify, commercial use allowed, attribution not required. Not allowed: selling unaltered copies, implying endorsement, portraying identifiable people in a bad light.
+
+B01  Pexels 39024321  by Alef Morais  https://www.pexels.com/video/aerial-view-of-luxury-coastal-property-at-dusk-39024321/
+B02  Pexels 36532059  by LayG Traveller  https://www.pexels.com/video/contemporary-residential-home-with-scenic-terrace-36532059/
+B08  Pexels 7394006  by Max Vakhtbovych  https://www.pexels.com/video/a-woman-drinking-coffee-while-using-her-cellphone-7394006/
+B09  Pexels 4778794  by cottonbro studio  https://www.pexels.com/video/a-man-reading-a-book-in-front-of-a-window-4778794/
+B10  Pexels 8764576  by Pavel Danilyuk  https://www.pexels.com/video/close-up-of-wine-being-poured-in-a-glass-8764576/
+B11  Pexels 6289666  by cottonbro studio  https://www.pexels.com/video/couple-bringing-dishes-to-dining-table-6289666/
+B12  Pexels 8922354  by Ron Lach  https://www.pexels.com/video/a-group-of-friends-clinking-glasses-8922354/
+B13  Pexels 39576513  by Alef Morais  https://www.pexels.com/video/luxurious-modern-home-with-pool-and-palm-view-39576513/
+B14  Pexels 36868096  by David Pickup  https://www.pexels.com/video/luxury-waterfront-real-estate-aerial-view-36868096/
+
+B03-B07 reuse Project 1 footage (Kindel Media, Curtis Adams) - see ../../p1-luxury-apartment/footage/LICENCES.txt

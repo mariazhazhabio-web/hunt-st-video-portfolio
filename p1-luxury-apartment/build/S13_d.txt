@@ -1,0 +1,1 @@
+Move: Drone top-down or slow slide    Speed: 50\%    Length: 2.4s

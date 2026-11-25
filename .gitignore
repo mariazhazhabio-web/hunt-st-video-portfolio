@@ -1,0 +1,10 @@
+﻿# Videos and music are hosted elsewhere (too large for GitHub)
+*.mp4
+*.mov
+*.m4v
+*.mkv
+*.avi
+*.mp3
+*.wav
+node_modules/
+.env*

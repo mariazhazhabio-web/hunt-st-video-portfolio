@@ -1,0 +1,319 @@
+<title>Maria Zha-Zha C Bio Reel</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Manrope:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: a screening-room reel. Full-bleed looping hero, then one project per "reel" band:
+   player on one side, a timecode slate (real specs) and edit notes on the other. */
+:root {
+  --bg: #141311;        /* warm charcoal, the end-card colour of the Verane films */
+  --bg-2: #1c1a17;      /* raised band */
+  --ink: #efe9df;       /* warm white, the title colour in the films */
+  --ink-2: #b5ada0;     /* secondary text */
+  --line: #34302a;      /* hairlines */
+  --accent: #c8b48a;    /* champagne, the rule and label colour in the films */
+  --tag-bg: #2a2620;
+  --display: "Instrument Serif", Georgia, "Times New Roman", serif;
+  --body: "Manrope", "Segoe UI", system-ui, sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, "Cascadia Mono", Consolas, monospace;
+  color-scheme: dark;
+}
+@media (prefers-color-scheme: light) {
+  :root:not([data-theme="dark"]) { --bg: #f4f1ec; --bg-2: #ebe6de; --ink: #1d1b18; --ink-2: #5e574d; --line: #d5cdc1; --accent: #8a6f3c; --tag-bg: #e2dbcf; color-scheme: light; }
+}
+:root[data-theme="light"] { --bg: #f4f1ec; --bg-2: #ebe6de; --ink: #1d1b18; --ink-2: #5e574d; --line: #d5cdc1; --accent: #8a6f3c; --tag-bg: #e2dbcf; color-scheme: light; }
+
+body { background: var(--bg); color: var(--ink); font-family: var(--body); font-size: 16px; line-height: 1.6; }
+.wrap { max-width: 1180px; margin: 0 auto; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+a { color: var(--accent); }
+a:focus-visible, video:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+h1, h2, h3 { font-family: var(--display); font-weight: 400; line-height: 1.05; text-wrap: balance; margin: 0; }
+p { margin: 0; max-width: 65ch; }
+.label { font-family: var(--mono); font-size: 0.72rem; letter-spacing: 0.14em; text-transform: uppercase; color: var(--accent); }
+
+/* Hero: a picture-backed hero keeps to the :root padding */
+.hero { position: relative; overflow: hidden; border-bottom: 1px solid var(--line); background: #0d0c0b; }
+.hero video { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; opacity: 0.55; }
+.hero::after { content: ""; position: absolute; inset: 0; background: linear-gradient(180deg, rgba(13,12,11,0.2) 0%, rgba(13,12,11,0.85) 100%); }
+.hero .wrap { position: relative; z-index: 1; padding-block: clamp(72px, 14vw, 168px) 48px; display: grid; gap: 20px; }
+.hero h1 { font-size: clamp(2.8rem, 8.5vw, 6.4rem); color: #f4efe6; }
+.hero h1 em { color: #c8b48a; }
+.hero .role { font-size: clamp(1.05rem, 2.2vw, 1.3rem); color: #e6dfd3; max-width: 52ch; }
+.hero .app { font-family: var(--mono); font-size: 0.8rem; color: #cfc7b9; letter-spacing: 0.04em; }
+.hero .label { color: #c8b48a; }
+.disclaimer { display: inline-flex; flex-wrap: wrap; gap: 6px 12px; align-items: center; padding: 10px 14px; border: 1px solid rgba(200,180,138,0.5); border-radius: 4px; font-size: 0.85rem; color: #efe9df; background: rgba(20,19,17,0.6); max-width: 100%; }
+
+/* Reel index */
+.index { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); border-bottom: 1px solid var(--line); }
+.index a { display: grid; gap: 4px; padding: 20px 16px; text-decoration: none; color: var(--ink); border-right: 1px solid var(--line); min-width: 0; }
+.index a:last-child { border-right: 0; }
+.index a:hover { background: var(--bg-2); }
+.index .t { font-family: var(--display); font-size: 1.35rem; }
+.index .m { font-family: var(--mono); font-size: 0.74rem; color: var(--ink-2); }
+
+/* Featured band: the one piece edited by hand, which links out (Facebook can't be embedded) */
+.featured { border-bottom: 1px solid var(--line); }
+.featured .wrap { padding-block: 40px; display: flex; flex-wrap: wrap; gap: 20px 40px; align-items: center; justify-content: space-between; }
+.featured h2 { font-size: clamp(1.8rem, 4vw, 2.6rem); }
+.featured p { color: var(--ink-2); }
+.watch { display: inline-flex; gap: 8px; align-items: center; padding: 12px 20px; border: 1px solid var(--accent); border-radius: 3px; font-weight: 600; text-decoration: none; color: var(--accent); white-space: nowrap; }
+.watch:hover { background: var(--tag-bg); }
+
+/* Project bands */
+.project { border-bottom: 1px solid var(--line); }
+.project:nth-of-type(even) { background: var(--bg-2); }
+.project .wrap { padding-block: clamp(48px, 7vw, 88px); display: grid; gap: 28px; }
+.project header { display: grid; gap: 10px; }
+.project h2 { font-size: clamp(2rem, 5vw, 3.4rem); }
+.project .lede { color: var(--ink-2); font-size: 1.05rem; }
+.stage { display: grid; grid-template-columns: minmax(0, 1.65fr) minmax(0, 1fr); gap: 32px; align-items: start; }
+.stage.vertical { grid-template-columns: minmax(0, 0.8fr) minmax(0, 1.2fr); }
+.stage.dual { grid-template-columns: minmax(0, 1.6fr) minmax(0, 0.55fr); }
+.player { display: grid; gap: 8px; min-width: 0; }
+.player video { width: 100%; max-width: 100%; display: block; background: #000; border-radius: 3px; }
+.player.tall video { aspect-ratio: 9 / 16; max-height: 78vh; width: auto; margin: 0 auto; }
+.player figcaption { font-family: var(--mono); font-size: 0.74rem; color: var(--ink-2); }
+
+/* Timecode slate: the project's real specs */
+.slate { border: 1px solid var(--line); border-radius: 4px; overflow: hidden; min-width: 0; }
+.slate .head { display: flex; justify-content: space-between; gap: 12px; padding: 10px 14px; background: var(--tag-bg); font-family: var(--mono); font-size: 0.74rem; letter-spacing: 0.08em; text-transform: uppercase; }
+.slate .head span:last-child { color: var(--accent); }
+.slate dl { margin: 0; display: grid; grid-template-columns: auto minmax(0, 1fr); }
+.slate dt, .slate dd { margin: 0; padding: 9px 14px; border-top: 1px solid var(--line); font-size: 0.88rem; }
+.slate dt { font-family: var(--mono); font-size: 0.72rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink-2); padding-top: 11px; }
+.slate dd { font-variant-numeric: tabular-nums; }
+.slate dd.tc { font-family: var(--mono); }
+
+.notes { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 28px 40px; }
+.notes h3 { font-size: 1.5rem; margin-bottom: 10px; }
+.notes ul { margin: 0; padding-left: 18px; display: grid; gap: 6px; color: var(--ink-2); }
+.notes li strong { color: var(--ink); font-weight: 600; }
+.tags { display: flex; flex-wrap: wrap; gap: 8px; }
+.tag { font-family: var(--mono); font-size: 0.72rem; padding: 4px 9px; border-radius: 3px; background: var(--tag-bg); color: var(--ink-2); }
+.tag.sample { color: var(--accent); border: 1px solid var(--accent); background: transparent; }
+
+/* Process: a real sequence, so numbering is meaningful */
+.process .wrap, .about .wrap { padding-block: clamp(48px, 7vw, 88px); display: grid; gap: 28px; }
+.steps { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 0; border-top: 1px solid var(--line); }
+.steps li { padding: 20px 20px 4px 0; display: grid; gap: 8px; align-content: start; min-width: 0; }
+.steps .n { font-family: var(--mono); font-size: 0.78rem; color: var(--accent); }
+.steps h3 { font-size: 1.45rem; }
+.steps p { color: var(--ink-2); font-size: 0.94rem; }
+.honest { border-left: 2px solid var(--accent); padding: 4px 0 4px 18px; color: var(--ink-2); max-width: 75ch; }
+.honest strong { color: var(--ink); }
+
+.about { border-top: 1px solid var(--line); background: var(--bg-2); }
+.cols { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 32px; }
+.cols h3 { font-size: 1.5rem; margin-bottom: 10px; }
+.cols ul { margin: 0; padding-left: 18px; display: grid; gap: 6px; color: var(--ink-2); }
+footer .wrap { padding-block: 36px 48px; display: grid; gap: 12px; color: var(--ink-2); font-size: 0.86rem; border-top: 1px solid var(--line); }
+footer p { max-width: 90ch; }
+
+@media (max-width: 900px) {
+  .stage, .stage.vertical, .stage.dual { grid-template-columns: minmax(0, 1fr); }
+  .notes, .cols { grid-template-columns: minmax(0, 1fr); }
+  .steps { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (max-width: 560px) {
+  .index { grid-template-columns: minmax(0, 1fr); }
+  .index a { border-right: 0; border-bottom: 1px solid var(--line); }
+  .steps { grid-template-columns: minmax(0, 1fr); }
+  .player.tall video { max-height: 70vh; }
+}
+@media (prefers-reduced-motion: reduce) { .hero video { display: none; } }
+</style>
+
+<section class="hero" aria-label="Introduction">
+  <video src="media/hero-loop.mp4" autoplay muted loop playsinline aria-hidden="true" poster="media/p1-poster.jpg"></video>
+  <div class="wrap">
+    <span class="label">Property video portfolio</span>
+    <h1>Maria Zha-Zha <em>C Bio</em></h1>
+    <p class="role">Video editor and content creator who edits hands-on in CapCut Desktop and CapCut Mobile. I make advocacy, promotional and personal-branding videos, and this portfolio applies that work to property showcases, Instagram reels and brand films.</p>
+    <p class="app">Prepared for Hunt St · Part-Time Video Editor (Apartment / Properties Videos) · Job 006-1483</p>
+    <div class="disclaimer"><strong>Self-initiated samples.</strong> <span>"Verane" is a fictional brand. None of these videos is commissioned client work. Footage and music are licensed stock (credits below).</span></div>
+  </div>
+</section>
+
+<nav class="index" aria-label="Projects">
+  <a href="#showcase"><span class="label">16:9 · Listing film</span><span class="t">Residence Showcase</span><span class="m">57.76 s · 1920×1080 · 25p</span></a>
+  <a href="#reel"><span class="label">9:16 · Instagram</span><span class="t">Premium Property Reel</span><span class="m">24.00 s · 1080×1920 · 30p</span></a>
+  <a href="#brand"><span class="label">16:9 + 9:16 · Brand film</span><span class="t">Verane Brand Ad</span><span class="m">35.36 s · two cuts · 25p</span></a>
+</nav>
+
+<section class="featured" aria-labelledby="featured-h">
+  <div class="wrap">
+    <div style="display:grid; gap:10px; min-width:0">
+      <span class="label">Featured · Edited by me in CapCut</span>
+      <h2 id="featured-h">A 4-minute advocacy video</h2>
+      <p>Community engagement and environmental awareness, told through footage, music, text and carefully structured messaging. I edited it hands-on in CapCut for my own accounts.</p>
+    </div>
+    <a class="watch" href="https://www.facebook.com/share/v/1CT3ZGh94e/" target="_blank" rel="noopener">Watch on Facebook <span aria-hidden="true">↗</span></a>
+  </div>
+</section>
+
+<section class="project" id="showcase">
+  <div class="wrap">
+    <header>
+      <span class="label">Project 01 · Luxury residence showcase</span>
+      <h2>A walkthrough timed to the piano</h2>
+      <p class="lede">An inspection-order tour of one modern house: arrival, entrance, living, kitchen, bedroom, ensuite, view, outdoor living, highlights, and a brand close. Every cut lands on the music's beat.</p>
+    </header>
+    <div class="stage">
+      <figure class="player" style="margin:0">
+        <video controls preload="metadata" playsinline poster="media/p1-poster.jpg" src="media/p1-showcase.mp4" aria-label="Residence Showcase, 57 seconds"></video>
+        <figcaption>Web preview, 1280×720. Master: 1920×1080 H.264, 25 fps.</figcaption>
+      </figure>
+      <div class="slate">
+        <div class="head"><span>Slate · P1</span><span>Final</span></div>
+        <dl>
+          <dt>Runtime</dt><dd class="tc">00:00:57:19 · 1,444 fr</dd>
+          <dt>Format</dt><dd>16:9 · 1920×1080 · 25 fps</dd>
+          <dt>Shots</dt><dd>17 clips + end card</dd>
+          <dt>Grid</dt><dd>0.76 s beat (19 frames)</dd>
+          <dt>Audio</dt><dd>−14.0 LUFS · −1.7 dBTP</dd>
+          <dt>Music</dt><dd>"Cinematic Piano", AtlasAudio (Pixabay)</dd>
+        </dl>
+      </div>
+    </div>
+    <div class="notes">
+      <div>
+        <h3>Editing decisions</h3>
+        <ul>
+          <li><strong>Beat-grid pacing.</strong> Hero wides hold 6 beats, supporting shots 4, details 2, so the rhythm tightens for kitchen and bathroom details.</li>
+          <li><strong>Frame-rate conform.</strong> 30 fps footage plays at 83% on a 25 fps timeline for a calmer, gliding feel without stutter.</li>
+          <li><strong>Transitions with a reason.</strong> Hard cuts on the beat, with dissolves only at chapter changes (living, bedroom, highlights).</li>
+          <li><strong>Digital push-ins</strong> of 3–5% on static-feeling shots to keep the camera alive.</li>
+        </ul>
+      </div>
+      <div>
+        <h3>Look and type</h3>
+        <ul>
+          <li><strong>Warm-neutral grade:</strong> +6% contrast, −10% saturation, warm highlights, cool shadows, soft vignette.</li>
+          <li><strong>Room captions</strong> in serif italic, lower left inside title-safe, over a soft gradient so they read on bright windows.</li>
+          <li><strong>Brand end card</strong> with call to action, editor credit and sample disclaimer.</li>
+        </ul>
+        <div class="tags" style="margin-top:16px"><span class="tag sample">Sample · not client work</span><span class="tag">Real estate</span><span class="tag">Listing video</span><span class="tag">YouTube / website</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="project" id="reel">
+  <div class="wrap">
+    <header>
+      <span class="label">Project 02 · Premium property Instagram reel</span>
+      <h2>Hook in the first frames, cut to 120 BPM</h2>
+      <p class="lede">A 24-second vertical reel. The opening line "POV: you just got the keys" is on screen by 0.1 s. Cuts land on the beat, with half-beat cuts through the kitchen, and the reel closes on one clear call to action.</p>
+    </header>
+    <div class="stage vertical">
+      <figure class="player tall" style="margin:0">
+        <video controls preload="metadata" playsinline poster="media/p2-poster.jpg" src="media/p2-reel.mp4" aria-label="Premium Property Reel, 24 seconds"></video>
+        <figcaption>Web preview, 720×1280. Master: 1080×1920 H.264, 30 fps.</figcaption>
+      </figure>
+      <div style="display:grid; gap:28px; min-width:0">
+        <div class="slate">
+          <div class="head"><span>Slate · P2</span><span>Final</span></div>
+          <dl>
+            <dt>Runtime</dt><dd class="tc">00:00:24:00 · 720 fr</dd>
+            <dt>Format</dt><dd>9:16 · 1080×1920 · 30 fps</dd>
+            <dt>Shots</dt><dd>16 clips + call-to-action card</dd>
+            <dt>Grid</dt><dd>120 BPM · 0.5 s beat (15 frames)</dd>
+            <dt>Audio</dt><dd>−14.1 LUFS · −2.2 dBTP</dd>
+            <dt>Music</dt><dd>"Luxury Life", Kulakovka (Pixabay)</dd>
+          </dl>
+        </div>
+        <div class="notes" style="grid-template-columns:minmax(0,1fr)">
+          <div>
+            <h3>Editing decisions</h3>
+            <ul>
+              <li><strong>Moving 9:16 crops</strong> from 16:9 footage: each crop drifts across the frame for parallax-style motion.</li>
+              <li><strong>Rising text:</strong> a 60 px slide-up with an eased stop over 0.35 s, fading out just before each cut.</li>
+              <li><strong>Four motion transitions only</strong> (swipe up, zoom in, slide left, swipe left). Everything else is a hard cut on the beat.</li>
+              <li><strong>Built for Instagram's layout:</strong> all text stays clear of the top 220 px, the bottom 420 px and the right-hand icon column.</li>
+              <li><strong>Readable with sound off:</strong> every message is also on screen.</li>
+            </ul>
+            <div class="tags" style="margin-top:16px"><span class="tag sample">Sample · not client work</span><span class="tag">Instagram Reels</span><span class="tag">Motion type</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="project" id="brand">
+  <div class="wrap">
+    <header>
+      <span class="label">Project 03 · Real estate brand promotional ad</span>
+      <h2>Architecture, light, life. Homes, composed.</h2>
+      <p class="lede">A brand film for the fictional developer Verane, in the understated style of high-end Australian property marketing. Three short lines carry three acts, from architecture to interiors to people living in the homes, closing on the brand. Delivered as a 16:9 master and a 9:16 version.</p>
+    </header>
+    <div class="stage dual">
+      <figure class="player" style="margin:0">
+        <video controls preload="metadata" playsinline poster="media/p3-poster.jpg" src="media/p3-brand-16x9.mp4" aria-label="Verane Brand Ad, 16 by 9, 35 seconds"></video>
+        <figcaption>16:9 master. Web preview 1280×720, 25 fps.</figcaption>
+      </figure>
+      <figure class="player tall" style="margin:0">
+        <video controls preload="metadata" playsinline poster="media/p3v-poster.jpg" src="media/p3-brand-9x16.mp4" aria-label="Verane Brand Ad, 9 by 16, 35 seconds"></video>
+        <figcaption>9:16 version. Web preview 720×1280.</figcaption>
+      </figure>
+    </div>
+    <div class="notes">
+      <div class="slate">
+        <div class="head"><span>Slate · P3</span><span>Final ×2</span></div>
+        <dl>
+          <dt>Runtime</dt><dd class="tc">00:00:35:09 · 884 fr</dd>
+          <dt>Formats</dt><dd>1920×1080 and 1080×1920 · 25 fps</dd>
+          <dt>Shots</dt><dd>14 clips + end card, from 9 creators</dd>
+          <dt>Grid</dt><dd>0.52 s beat (13 frames)</dd>
+          <dt>Audio</dt><dd>−13.8 LUFS · −1.0 dBTP</dd>
+          <dt>Music</dt><dd>"Piano And Strings", AtlasAudio (Pixabay)</dd>
+        </dl>
+      </div>
+      <div>
+        <h3>Editing decisions</h3>
+        <ul>
+          <li><strong>Music placed to the story.</strong> The track starts where its quiet breath falls before the "Life" act, so the strings swell carries the lifestyle shots.</li>
+          <li><strong>Slow motion only where the source allows:</strong> 50 and 60 fps clips play at 50%, and 25/30 fps clips stay at real speed.</li>
+          <li><strong>Dips to black</strong> between acts and dissolves within them. Wine pour and toast cuts sit on half-bars.</li>
+          <li><strong>Two layouts from one edit:</strong> the vertical version shows one large word per act with the full line above it, and its end card is restacked for Instagram.</li>
+          <li><strong>Sound design is planned but not yet added</strong> (ocean, pours, glass clink, low boom). Effect timings are in the production pack.</li>
+        </ul>
+        <div class="tags" style="margin-top:16px"><span class="tag sample">Sample · not client work</span><span class="tag">Brand film</span><span class="tag">Lifestyle</span><span class="tag">Multi-format</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="process" aria-labelledby="process-h">
+  <div class="wrap">
+    <span class="label">Process</span>
+    <h2 id="process-h" style="font-size:clamp(2rem,5vw,3.2rem)">From brief to delivered file</h2>
+    <ol class="steps">
+      <li><span class="n">01 · Brief</span><h3>Plan the story</h3><p>Creative brief, audience, structure, then a storyboard and a timed shot list with framing, camera move, speed, transition and on-screen text for every shot.</p></li>
+      <li><span class="n">02 · Source</span><h3>License everything</h3><p>Footage from Pexels and music from Pixabay, logged with creator and link. Tracks registered with YouTube Content ID were filtered out so the samples can be posted without copyright claims.</p></li>
+      <li><span class="n">03 · Cut</span><h3>Edit to the music</h3><p>Measure the track's tempo, choose the section that fits the story, and set every shot length to whole beats. Then grade, add titles and transitions, and mix to −14 LUFS.</p></li>
+      <li><span class="n">04 · QC</span><h3>Check before delivery</h3><p>Frame count and duration, resolution and frame rate, loudness and true peak, black-frame and silence detection, title-safe and Instagram safe zones, and a disclaimer on every end card.</p></li>
+    </ol>
+    <p class="honest"><strong>How these samples were made.</strong> These portfolio samples were assembled using an AI-assisted workflow based on my shot lists, creative direction and content planning. My hands-on editing work is done in CapCut Desktop and Mobile, as in the featured advocacy video above. Each project also has a production pack with CapCut finishing steps.</p>
+  </div>
+</section>
+
+<section class="about" aria-labelledby="about-h">
+  <div class="wrap">
+    <span class="label">Editor</span>
+    <h2 id="about-h" style="font-size:clamp(2rem,5vw,3.2rem)">What I bring to property content</h2>
+    <div class="cols">
+      <div><h3>Experience</h3><ul><li>Independent video editor and content creator, 2026 to present: advocacy, promotional, personal-branding and social videos for my own accounts</li><li>Administrative and communications support, Government Service, 2008 to present: presentations, reports, event documentation and public information</li></ul></div>
+      <div><h3>Tools</h3><ul><li>CapCut Desktop and CapCut Mobile: hands-on video editing</li><li>Canva: social graphics and promotional materials</li><li>ChatGPT and Claude: scripting, storyboarding and content planning</li><li>Microsoft Office and Google Workspace: project documentation</li></ul></div>
+      <div><h3>Deliverables shown here</h3><ul><li>16:9 listing film for YouTube and websites</li><li>9:16 Instagram reel with a hook, beat cuts and a call to action</li><li>Brand film in 16:9 and 9:16</li><li>Consistent type, colour and end-card system across all three</li></ul></div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <p><strong>Footage (Pexels License):</strong> Kindel Media, Curtis Adams, Alef Morais, LayG Traveller, Max Vakhtbovych, cottonbro studio, Pavel Danilyuk, Ron Lach, David Pickup. <strong>Music (Pixabay Content License):</strong> AtlasAudio ("Cinematic Piano", "Piano And Strings"), Kulakovka ("Luxury Life").</p>
+    <p>All three videos are self-initiated sample portfolio projects for a fictional brand. They do not represent commissioned client work or any real property listing. Contact details are included with my Hunt St application.</p>
+  </div>
+</footer>

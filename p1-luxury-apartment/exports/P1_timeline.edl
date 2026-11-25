@@ -1,0 +1,90 @@
+TITLE: P1_LUXURY_APARTMENT
+FCM: NON-DROP FRAME
+
+001  S01      V     C        00:00:00:00 00:00:04:14 01:00:00:00 01:00:04:14
+* FROM CLIP NAME: S01.mp4
+* COMMENT: ESTABLISHING - Rear facade and terrace, slow forward glide - speed 100% - transition in: fadeblack
+
+002  S02      V     C        00:00:02:00 00:00:04:13 01:00:04:14 01:00:07:15
+* FROM CLIP NAME: S02.mp4
+* COMMENT: ESTABLISHING - Reverse angle across lawn and terrace - speed 83% - transition in: cut
+M2   S02            20.8                00:00:02:00
+
+003  S03      V     C        00:00:00:00 00:00:02:13 01:00:07:15 01:00:10:16
+* FROM CLIP NAME: S03.mp4
+* COMMENT: ENTRANCE - Gallery hallway walk-through - speed 83% - transition in: cut
+M2   S03            20.8                00:00:00:00
+
+004  S04      V     C        00:00:08:00 00:00:11:20 01:00:10:16 01:00:15:05
+* FROM CLIP NAME: S04.mp4
+* COMMENT: LIVING - Open-plan living, glide into the lounge - speed 83% - transition in: fade
+M2   S04            20.8                00:00:08:00
+
+005  S05      V     C        00:00:04:00 00:00:06:13 01:00:15:05 01:00:18:06
+* FROM CLIP NAME: S05.mp4
+* COMMENT: LIVING - Lounge chairs and marble table detail - speed 83% - transition in: cut
+M2   S05            20.8                00:00:04:00
+
+006  S06      V     C        00:00:06:00 00:00:09:20 01:00:18:06 01:00:22:20
+* FROM CLIP NAME: S06.mp4
+* COMMENT: KITCHEN - Kitchen island glide - speed 83% - transition in: cut
+M2   S06            20.8                00:00:06:00
+
+007  S07      V     C        00:00:12:00 00:00:13:07 01:00:22:20 01:00:24:08
+* FROM CLIP NAME: S07.mp4
+* COMMENT: KITCHEN - Bar island and tapware detail - speed 83% - transition in: cut
+M2   S07            20.8                00:00:12:00
+
+008  S08      V     C        00:00:00:00 00:00:03:20 01:00:24:08 01:00:28:22
+* FROM CLIP NAME: S08.mp4
+* COMMENT: BEDROOM - Master bedroom, window light - speed 83% - transition in: fade
+M2   S08            20.8                00:00:00:00
+
+009  S09      V     C        00:00:06:13 00:00:09:01 01:00:28:22 01:00:31:23
+* FROM CLIP NAME: S09.mp4
+* COMMENT: ENSUITE - Reveal into the ensuite - speed 83% - transition in: cut
+M2   S09            20.8                00:00:06:13
+
+010  S10      V     C        00:00:08:00 00:00:11:20 01:00:31:23 01:00:36:12
+* FROM CLIP NAME: S10.mp4
+* COMMENT: BATHROOM - Vanity, freestanding bath and shower - speed 83% - transition in: cut
+M2   S10            20.8                00:00:08:00
+
+011  S11      V     C        00:00:04:00 00:00:05:07 01:00:36:12 01:00:38:00
+* FROM CLIP NAME: S11.mp4
+* COMMENT: BATHROOM - Brass spout filling the bath (Curtis Adams) - speed 83% - transition in: cut
+M2   S11            20.8                00:00:04:00
+
+012  S12      V     C        00:00:05:00 00:00:07:13 01:00:38:00 01:00:41:01
+* FROM CLIP NAME: S12.mp4
+* COMMENT: VIEW - Window framing palms and garden - speed 83% - transition in: cut
+M2   S12            20.8                00:00:05:00
+
+013  S13      V     C        00:00:04:00 00:00:06:13 01:00:41:01 01:00:44:02
+* FROM CLIP NAME: S13.mp4
+* COMMENT: OUTDOOR - Alfresco dining terrace - speed 83% - transition in: cut
+M2   S13            20.8                00:00:04:00
+
+014  S14      V     C        00:00:00:00 00:00:01:07 01:00:44:02 01:00:45:15
+* FROM CLIP NAME: S14.mp4
+* COMMENT: OUTDOOR - Landscaped garden - speed 83% - transition in: cut
+M2   S14            20.8                00:00:00:00
+
+015  S15      V     C        00:00:02:00 00:00:03:07 01:00:45:15 01:00:47:03
+* FROM CLIP NAME: S15.mp4
+* COMMENT: DINING - Dining room glide - speed 83% - transition in: cut
+M2   S15            20.8                00:00:02:00
+
+016  S16      V     C        00:00:02:00 00:00:04:13 01:00:47:03 01:00:50:04
+* FROM CLIP NAME: S16.mp4
+* COMMENT: DINING - Art and lighting detail - speed 83% - transition in: cut
+M2   S16            20.8                00:00:02:00
+
+017  S17      V     C        00:00:00:00 00:00:03:01 01:00:50:04 01:00:53:05
+* FROM CLIP NAME: S17.mp4
+* COMMENT: HIGHLIGHTS - Palms and sky, calm hold - speed 100% - transition in: fade
+
+018  S18      V     C        00:00:00:00 00:00:04:14 01:00:53:05 01:00:57:19
+* FROM CLIP NAME: S18.mp4
+* COMMENT: CLOSING CARD - Brand end card on warm charcoal - speed 100% - transition in: fadeblack
+

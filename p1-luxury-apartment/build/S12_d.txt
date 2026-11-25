@@ -1,0 +1,1 @@
+Move: Gimbal push through doorway    Speed: 50\%    Length: 2.4s

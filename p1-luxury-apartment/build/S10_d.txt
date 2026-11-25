@@ -1,0 +1,1 @@
+Move: Slow lateral slide    Speed: 50\%    Length: 3.6s

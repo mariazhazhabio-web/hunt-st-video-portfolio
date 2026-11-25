@@ -1,0 +1,1 @@
+Move: Gimbal walk-in    Speed: 50\%    Length: 2.4s

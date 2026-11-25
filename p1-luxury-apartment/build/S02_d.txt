@@ -1,0 +1,1 @@
+Move: Gimbal tilt-up    Speed: 50\%    Length: 2.4s

@@ -1,0 +1,525 @@
+{
+  "project": "P2 - Premium Property Instagram Reel",
+  "label": "Self-initiated sample portfolio project - fictional brand - not commissioned client work",
+  "footage_dir": "../p1-luxury-apartment/footage/_src",
+  "format": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30,
+    "duration": 24
+  },
+  "music": {
+    "bpm": 120,
+    "file_glob": "music/P2_music",
+    "start_in_track": 15.915,
+    "gain_db": 0,
+    "tempo_ratio": 0.9753
+  },
+  "grade": {
+    "lut": "luts/P2_look.cube",
+    "builtin": "eq=contrast=1.08:saturation=0.95:gamma=1.0,colorbalance=rs=-0.01:bs=0.02:rh=0.03:gh=0.01:bh=-0.03,vignette=angle=PI/8"
+  },
+  "shots": [
+    {
+      "id": "R01",
+      "start": 0,
+      "dur": 2,
+      "section": "HOOK",
+      "src": "pexels-7578546.mp4",
+      "src_in": 8,
+      "cx": 0.5,
+      "cx2": 0.56,
+      "push": 0.06,
+      "trans_in": "cut"
+    },
+    {
+      "id": "R02",
+      "start": 2,
+      "dur": 1,
+      "section": "EXTERIOR",
+      "src": "pexels-7578541.mp4",
+      "src_in": 2,
+      "cx": 0.42,
+      "cx2": 0.46,
+      "push": 0,
+      "trans_in": "smoothup",
+      "trans_dur": 0.2
+    },
+    {
+      "id": "R03",
+      "start": 3,
+      "dur": 1,
+      "section": "KITCHEN",
+      "src": "pexels-7578540.mp4",
+      "src_in": 8,
+      "cx": 0.55,
+      "cx2": 0.5,
+      "push": 0,
+      "trans_in": "cut"
+    },
+    {
+      "id": "R04",
+      "start": 4,
+      "dur": 0.5,
+      "section": "KITCHEN",
+      "src": "pexels-7578549.mp4",
+      "src_in": 12,
+      "cx": 0.55,
+      "cx2": 0.55,
+      "push": 0,
+      "trans_in": "cut"
+    },
+    {
+      "id": "R05",
+      "start": 4.5,
+      "dur": 0.5,
+      "section": "KITCHEN",
+      "src": "pexels-7578549.mp4",
+      "src_in": 15.5,
+      "cx": 0.45,
+      "cx2": 0.45,
+      "push": 0,
+      "trans_in": "cut"
+    },
+    {
+      "id": "R06",
+      "start": 5,
+      "dur": 2,
+      "section": "DINING",
+      "src": "pexels-7578552.mp4",
+      "src_in": 2,
+      "cx": 0.45,
+      "cx2": 0.55,
+      "push": 0.04,
+      "trans_in": "zoomin",
+      "trans_dur": 0.3
+    },
+    {
+      "id": "R07",
+      "start": 7,
+      "dur": 1,
+      "section": "LIVING",
+      "src": "pexels-7578554.mp4",
+      "src_in": 4,
+      "cx": 0.4,
+      "cx2": 0.45,
+      "push": 0,
+      "trans_in": "cut"
+    },
+    {
+      "id": "R08",
+      "start": 8,
+      "dur": 2,
+      "section": "BEDROOM",
+      "src": "pexels-7578550.mp4",
+      "src_in": 0,
+      "cx": 0.55,
+      "cx2": 0.45,
+      "push": 0.04,
+      "trans_in": "slideleft",
+      "trans_dur": 0.3
+    },
+    {
+      "id": "R09",
+      "start": 10,
+      "dur": 1,
+      "section": "ENSUITE",
+      "src": "pexels-7578550.mp4",
+      "src_in": 6.5,
+      "cx": 0.5,
+      "cx2": 0.5,
+      "push": 0,
+      "trans_in": "cut"
+    },
+    {
+      "id": "R10",
+      "start": 11,
+      "dur": 1,
+      "section": "BATHROOM",
+      "src": "pexels-7578551.mp4",
+      "src_in": 8,
+      "cx": 0.42,
+      "cx2": 0.42,
+      "push": 0,
+      "trans_in": "cut"
+    },
+    {
+      "id": "R11",
+      "start": 12,
+      "dur": 2,
+      "section": "DETAIL",
+      "src": "pexels-19228419.mp4",
+      "src_in": 4,
+      "cx": 0.72,
+      "cx2": 0.68,
+      "push": 0.05,
+      "trans_in": "fade",
+      "trans_dur": 0.2
+    },
+    {
+      "id": "R12",
+      "start": 14,
+      "dur": 1,
+      "section": "VIEW",
+      "src": "pexels-7578535.mp4",
+      "src_in": 5,
+      "cx": 0.3,
+      "cx2": 0.38,
+      "push": 0,
+      "trans_in": "smoothleft",
+      "trans_dur": 0.2
+    },
+    {
+      "id": "R13",
+      "start": 15,
+      "dur": 1,
+      "section": "TERRACE",
+      "src": "pexels-7578555.mp4",
+      "src_in": 4,
+      "cx": 0.45,
+      "cx2": 0.5,
+      "push": 0,
+      "trans_in": "cut"
+    },
+    {
+      "id": "R14",
+      "start": 16,
+      "dur": 1,
+      "section": "GARDEN",
+      "src": "pexels-7578536.mp4",
+      "src_in": 0,
+      "cx": 0.45,
+      "cx2": 0.5,
+      "push": 0,
+      "trans_in": "cut"
+    },
+    {
+      "id": "R15",
+      "start": 17,
+      "dur": 2,
+      "section": "EXTERIOR",
+      "src": "pexels-7578541.mp4",
+      "src_in": 14.5,
+      "cx": 0.55,
+      "cx2": 0.48,
+      "push": 0.03,
+      "trans_in": "cut"
+    },
+    {
+      "id": "R16",
+      "start": 19,
+      "dur": 2,
+      "section": "LIVING",
+      "src": "pexels-7578546.mp4",
+      "src_in": 15,
+      "cx": 0.5,
+      "cx2": 0.5,
+      "push": 0.05,
+      "trans_in": "fade",
+      "trans_dur": 0.3
+    },
+    {
+      "id": "R17",
+      "start": 21,
+      "dur": 3,
+      "section": "CTA",
+      "src": "pexels-7578546.mp4",
+      "src_in": 17,
+      "cx": 0.5,
+      "cx2": 0.5,
+      "push": 0,
+      "type": "blur",
+      "trans_in": "fade",
+      "trans_dur": 0.4
+    }
+  ],
+  "titles": [
+    {
+      "id": "H1",
+      "start": 0.1,
+      "dur": 1.85,
+      "anim": "rise",
+      "scrim": "center",
+      "lines": [
+        {
+          "text": "POV",
+          "font": "Montserrat-Regular.ttf",
+          "size": 46,
+          "track": true,
+          "y": 770,
+          "align": "center",
+          "color": "0xC8B48A"
+        },
+        {
+          "text": "you just got",
+          "font": "georgiai.ttf",
+          "size": 106,
+          "y": 840,
+          "align": "center"
+        },
+        {
+          "text": "the keys",
+          "font": "georgiai.ttf",
+          "size": 106,
+          "y": 965,
+          "align": "center"
+        }
+      ]
+    },
+    {
+      "id": "H2",
+      "start": 2.1,
+      "dur": 1.8,
+      "anim": "rise",
+      "scrim": "center",
+      "lines": [
+        {
+          "text": "VERANE",
+          "font": "georgia.ttf",
+          "size": 96,
+          "track": true,
+          "y": 860,
+          "align": "center"
+        },
+        {
+          "text": "RESIDENCES",
+          "font": "Montserrat-Regular.ttf",
+          "size": 36,
+          "track": true,
+          "y": 990,
+          "align": "center",
+          "color": "0xC8B48A"
+        }
+      ],
+      "rule": {
+        "y": 970,
+        "w": 120
+      }
+    },
+    {
+      "id": "H3",
+      "start": 5.15,
+      "dur": 1.8,
+      "anim": "rise",
+      "scrim": "center",
+      "lines": [
+        {
+          "text": "MADE FOR",
+          "font": "Montserrat-Regular.ttf",
+          "size": 42,
+          "track": true,
+          "y": 860,
+          "align": "center",
+          "color": "0xC8B48A"
+        },
+        {
+          "text": "entertaining",
+          "font": "georgiai.ttf",
+          "size": 110,
+          "y": 915,
+          "align": "center"
+        }
+      ]
+    },
+    {
+      "id": "H4",
+      "start": 8.2,
+      "dur": 1.75,
+      "anim": "rise",
+      "scrim": "center",
+      "lines": [
+        {
+          "text": "Wake up to this",
+          "font": "georgiai.ttf",
+          "size": 100,
+          "y": 900,
+          "align": "center"
+        }
+      ]
+    },
+    {
+      "id": "H5",
+      "start": 12.15,
+      "dur": 1.8,
+      "anim": "rise",
+      "scrim": "center",
+      "lines": [
+        {
+          "text": "IT IS ALL IN",
+          "font": "Montserrat-Regular.ttf",
+          "size": 42,
+          "track": true,
+          "y": 860,
+          "align": "center",
+          "color": "0xC8B48A"
+        },
+        {
+          "text": "the details",
+          "font": "georgiai.ttf",
+          "size": 110,
+          "y": 915,
+          "align": "center"
+        }
+      ]
+    },
+    {
+      "id": "H6",
+      "start": 17.1,
+      "dur": 1.85,
+      "anim": "rise",
+      "scrim": "center",
+      "lines": [
+        {
+          "text": "Indoor-outdoor",
+          "font": "georgiai.ttf",
+          "size": 100,
+          "y": 850,
+          "align": "center"
+        },
+        {
+          "text": "living",
+          "font": "georgiai.ttf",
+          "size": 100,
+          "y": 965,
+          "align": "center"
+        }
+      ]
+    },
+    {
+      "id": "H7",
+      "start": 19.15,
+      "dur": 1.8,
+      "anim": "rise",
+      "scrim": "center",
+      "lines": [
+        {
+          "text": "3 BED",
+          "font": "Montserrat-Regular.ttf",
+          "size": 56,
+          "track": true,
+          "y": 800,
+          "align": "center"
+        },
+        {
+          "text": "2 BATH",
+          "font": "Montserrat-Regular.ttf",
+          "size": 56,
+          "track": true,
+          "y": 900,
+          "align": "center"
+        },
+        {
+          "text": "2 CAR",
+          "font": "Montserrat-Regular.ttf",
+          "size": 56,
+          "track": true,
+          "y": 1000,
+          "align": "center",
+          "color": "0xC8B48A"
+        }
+      ]
+    },
+    {
+      "id": "H8",
+      "start": 21.35,
+      "dur": 2.65,
+      "anim": "rise",
+      "lines": [
+        {
+          "text": "VERANE",
+          "font": "georgia.ttf",
+          "size": 110,
+          "track": true,
+          "y": 680,
+          "align": "center"
+        },
+        {
+          "text": "RESIDENCES",
+          "font": "Montserrat-Regular.ttf",
+          "size": 36,
+          "track": true,
+          "y": 830,
+          "align": "center",
+          "color": "0xC8B48A"
+        },
+        {
+          "text": "Book a private inspection",
+          "font": "georgiai.ttf",
+          "size": 62,
+          "y": 960,
+          "align": "center"
+        },
+        {
+          "text": "LINK IN BIO",
+          "font": "Montserrat-Regular.ttf",
+          "size": 42,
+          "track": true,
+          "y": 1070,
+          "align": "center",
+          "color": "0xC8B48A"
+        },
+        {
+          "text": "Edited by Maria Zha-Zha C Bio",
+          "font": "Montserrat-Regular.ttf",
+          "size": 28,
+          "y": 1330,
+          "align": "center",
+          "color": "0xBDB6AA"
+        },
+        {
+          "text": "Sample portfolio project  |  Fictional brand",
+          "font": "Montserrat-Regular.ttf",
+          "size": 24,
+          "y": 1380,
+          "align": "center",
+          "color": "0x8E877C"
+        },
+        {
+          "text": "Not commissioned client work",
+          "font": "Montserrat-Regular.ttf",
+          "size": 24,
+          "y": 1418,
+          "align": "center",
+          "color": "0x8E877C"
+        }
+      ],
+      "rule": {
+        "y": 810,
+        "w": 120
+      },
+      "scrim": "center"
+    }
+  ],
+  "sfx": [
+    {
+      "file": "sfx/whoosh_short.wav",
+      "at": 1.9,
+      "gain_db": -14
+    },
+    {
+      "file": "sfx/whoosh_short.wav",
+      "at": 4.85,
+      "gain_db": -16
+    },
+    {
+      "file": "sfx/whoosh_short.wav",
+      "at": 7.85,
+      "gain_db": -16
+    },
+    {
+      "file": "sfx/tap_water.wav",
+      "at": 12,
+      "gain_db": -18
+    },
+    {
+      "file": "sfx/whoosh_short.wav",
+      "at": 13.9,
+      "gain_db": -18
+    },
+    {
+      "file": "sfx/low_hit.wav",
+      "at": 21,
+      "gain_db": -14
+    }
+  ]
+}

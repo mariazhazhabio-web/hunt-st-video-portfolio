@@ -1,0 +1,442 @@
+{
+  "project": "P3 - Real Estate Brand Promotional Ad",
+  "label": "Self-initiated sample portfolio project - fictional brand - not commissioned client work",
+  "tag": "P3",
+  "out_name": "P3_Verane_Brand_Ad",
+  "footage_dir": "footage",
+  "fade_in": 1,
+  "fade_out": 1.2,
+  "music": {
+    "bpm": 115.38,
+    "file_glob": "music/P3_music",
+    "start_in_track": 19.161,
+    "gain_db": 0,
+    "tempo_ratio": 1.0047
+  },
+  "grade": {
+    "lut": "luts/P3_look.cube",
+    "builtin": "eq=contrast=1.07:saturation=0.88:gamma=1.01,colorbalance=rs=-0.01:bs=0.03:rh=0.04:gh=0.01:bh=-0.03,vignette=angle=PI/6"
+  },
+  "shots": [
+    {
+      "id": "B01",
+      "start": 0,
+      "dur": 4.16,
+      "section": "ARCHITECTURE",
+      "shot": "Aerial: coastal residence at dusk",
+      "src": "_src/pexels-39024321.mp4",
+      "src_in": 1,
+      "speed": 1,
+      "push": 0.03,
+      "cx": 0.5,
+      "cx2": 0.5,
+      "trans_in": "cut"
+    },
+    {
+      "id": "B02",
+      "start": 4.16,
+      "dur": 2.08,
+      "section": "ARCHITECTURE",
+      "shot": "Contemporary home and terrace (50 fps slow motion)",
+      "src": "_src/pexels-36532059.mp4",
+      "src_in": 0.5,
+      "speed": 0.5,
+      "push": 0,
+      "cx": 0.55,
+      "cx2": 0.55,
+      "trans_in": "fade",
+      "trans_dur": 0.4
+    },
+    {
+      "id": "B03",
+      "start": 6.24,
+      "dur": 2.08,
+      "section": "ARCHITECTURE",
+      "shot": "Facade and terrace with sun flare",
+      "src": "../../p1-luxury-apartment/footage/_src/pexels-7578541.mp4",
+      "src_in": 14.5,
+      "speed": 0.834,
+      "push": 0.03,
+      "cx": 0.5,
+      "cx2": 0.5,
+      "trans_in": "cut"
+    },
+    {
+      "id": "B04",
+      "start": 8.32,
+      "dur": 2.08,
+      "section": "LIGHT",
+      "shot": "Light across open-plan living",
+      "src": "../../p1-luxury-apartment/footage/_src/pexels-7578546.mp4",
+      "src_in": 8,
+      "speed": 0.834,
+      "push": 0.04,
+      "cx": 0.52,
+      "cx2": 0.52,
+      "trans_in": "fadeblack",
+      "trans_dur": 0.6
+    },
+    {
+      "id": "B05",
+      "start": 10.4,
+      "dur": 2.08,
+      "section": "LIGHT",
+      "shot": "Dining room and chandelier",
+      "src": "../../p1-luxury-apartment/footage/_src/pexels-7578552.mp4",
+      "src_in": 2,
+      "speed": 0.834,
+      "push": 0,
+      "cx": 0.5,
+      "cx2": 0.5,
+      "trans_in": "cut"
+    },
+    {
+      "id": "B06",
+      "start": 12.48,
+      "dur": 2.08,
+      "section": "LIGHT",
+      "shot": "Bathroom: light through frosted glass",
+      "src": "../../p1-luxury-apartment/footage/_src/pexels-7578551.mp4",
+      "src_in": 8,
+      "speed": 0.834,
+      "push": 0,
+      "cx": 0.42,
+      "cx2": 0.42,
+      "trans_in": "cut"
+    },
+    {
+      "id": "B07",
+      "start": 14.56,
+      "dur": 2.08,
+      "section": "LIGHT",
+      "shot": "Brass spout macro",
+      "src": "../../p1-luxury-apartment/footage/_src/pexels-19228419.mp4",
+      "src_in": 4,
+      "speed": 0.834,
+      "push": 0.04,
+      "cx": 0.7,
+      "cx2": 0.7,
+      "trans_in": "cut"
+    },
+    {
+      "id": "B08",
+      "start": 16.64,
+      "dur": 2.08,
+      "section": "LIFE",
+      "shot": "Morning coffee in the kitchen (60 fps slow motion)",
+      "src": "_src/pexels-7394006.mp4",
+      "src_in": 6,
+      "speed": 0.5,
+      "push": 0,
+      "cx": 0.55,
+      "cx2": 0.55,
+      "trans_in": "fadeblack",
+      "trans_dur": 0.6
+    },
+    {
+      "id": "B09",
+      "start": 18.72,
+      "dur": 2.08,
+      "section": "LIFE",
+      "shot": "Reading by the window",
+      "src": "_src/pexels-4778794.mp4",
+      "src_in": 0,
+      "speed": 1,
+      "push": 0.03,
+      "cx": 0.55,
+      "cx2": 0.55,
+      "trans_in": "cut"
+    },
+    {
+      "id": "B10",
+      "start": 20.8,
+      "dur": 1.04,
+      "section": "LIFE",
+      "shot": "Wine pour close-up",
+      "src": "_src/pexels-8764576.mp4",
+      "src_in": 2,
+      "speed": 1,
+      "push": 0,
+      "cx": 0.45,
+      "cx2": 0.45,
+      "trans_in": "cut"
+    },
+    {
+      "id": "B11",
+      "start": 21.84,
+      "dur": 2.08,
+      "section": "LIFE",
+      "shot": "Dinner served at a candlelit table",
+      "src": "_src/pexels-6289666.mp4",
+      "src_in": 6,
+      "speed": 1,
+      "push": 0,
+      "cx": 0.5,
+      "cx2": 0.5,
+      "trans_in": "cut"
+    },
+    {
+      "id": "B12",
+      "start": 23.92,
+      "dur": 3.12,
+      "section": "LIFE",
+      "shot": "Friends raising a glass",
+      "src": "_src/pexels-8922354.mp4",
+      "src_in": 0,
+      "speed": 1,
+      "push": 0,
+      "cx": 0.5,
+      "cx2": 0.5,
+      "trans_in": "cut"
+    },
+    {
+      "id": "B13",
+      "start": 27.04,
+      "dur": 2.08,
+      "section": "BRAND",
+      "shot": "Pool and palm view",
+      "src": "_src/pexels-39576513.mp4",
+      "src_in": 1,
+      "speed": 1,
+      "push": 0.03,
+      "cx": 0.4,
+      "cx2": 0.4,
+      "trans_in": "fade",
+      "trans_dur": 0.6
+    },
+    {
+      "id": "B14",
+      "start": 29.12,
+      "dur": 2.08,
+      "section": "BRAND",
+      "shot": "Waterfront aerial (60 fps slow motion)",
+      "src": "_src/pexels-36868096.mp4",
+      "src_in": 2,
+      "speed": 0.5,
+      "push": 0,
+      "cx": 0.5,
+      "cx2": 0.5,
+      "trans_in": "cut"
+    },
+    {
+      "id": "B15",
+      "start": 31.2,
+      "dur": 4.16,
+      "section": "OUTRO",
+      "shot": "Brand end card over blurred waterfront",
+      "src": "_src/pexels-36868096.mp4",
+      "src_in": 6,
+      "speed": 0.5,
+      "push": 0,
+      "cx": 0.5,
+      "cx2": 0.5,
+      "trans_in": "fade",
+      "trans_dur": 0.8,
+      "type": "blur"
+    }
+  ],
+  "sfx": [
+    {
+      "file": "sfx/ocean_ambience.wav",
+      "at": 0,
+      "gain_db": -24
+    },
+    {
+      "file": "sfx/wind_soft.wav",
+      "at": 4.16,
+      "gain_db": -26
+    },
+    {
+      "file": "sfx/whoosh_soft.wav",
+      "at": 7.92,
+      "gain_db": -22
+    },
+    {
+      "file": "sfx/water_tap.wav",
+      "at": 14.56,
+      "gain_db": -20
+    },
+    {
+      "file": "sfx/whoosh_soft.wav",
+      "at": 16.24,
+      "gain_db": -22
+    },
+    {
+      "file": "sfx/coffee_pour.wav",
+      "at": 16.74,
+      "gain_db": -18
+    },
+    {
+      "file": "sfx/page_turn.wav",
+      "at": 19.52,
+      "gain_db": -20
+    },
+    {
+      "file": "sfx/wine_pour.wav",
+      "at": 20.8,
+      "gain_db": -18
+    },
+    {
+      "file": "sfx/glass_clink.wav",
+      "at": 24.32,
+      "gain_db": -16
+    },
+    {
+      "file": "sfx/low_boom.wav",
+      "at": 31.2,
+      "gain_db": -14
+    }
+  ],
+  "format": {
+    "w": 1920,
+    "h": 1080,
+    "fps": 25,
+    "duration": 35.36
+  },
+  "titles": [
+    {
+      "id": "T1",
+      "start": 1,
+      "dur": 2.96,
+      "anim": "rise",
+      "scrim": "bottom",
+      "lines": [
+        {
+          "text": "VERANE",
+          "font": "Montserrat-Regular.ttf",
+          "size": 28,
+          "track": true,
+          "y": 817,
+          "align": "center",
+          "color": "0xC8B48A"
+        },
+        {
+          "text": "Architecture is the frame.",
+          "font": "georgiai.ttf",
+          "size": 66,
+          "y": 880,
+          "align": "center"
+        }
+      ]
+    },
+    {
+      "id": "T2",
+      "start": 8.82,
+      "dur": 3.36,
+      "anim": "rise",
+      "scrim": "bottom",
+      "lines": [
+        {
+          "text": "VERANE",
+          "font": "Montserrat-Regular.ttf",
+          "size": 28,
+          "track": true,
+          "y": 817,
+          "align": "center",
+          "color": "0xC8B48A"
+        },
+        {
+          "text": "Light is the material.",
+          "font": "georgiai.ttf",
+          "size": 66,
+          "y": 880,
+          "align": "center"
+        }
+      ]
+    },
+    {
+      "id": "T3",
+      "start": 17.14,
+      "dur": 3.36,
+      "anim": "rise",
+      "scrim": "bottom",
+      "lines": [
+        {
+          "text": "VERANE",
+          "font": "Montserrat-Regular.ttf",
+          "size": 28,
+          "track": true,
+          "y": 817,
+          "align": "center",
+          "color": "0xC8B48A"
+        },
+        {
+          "text": "Life is the reason.",
+          "font": "georgiai.ttf",
+          "size": 66,
+          "y": 880,
+          "align": "center"
+        }
+      ]
+    },
+    {
+      "id": "T4",
+      "start": 27.44,
+      "dur": 3.46,
+      "anim": "rise",
+      "scrim": "bottom",
+      "lines": [
+        {
+          "text": "Homes, composed.",
+          "font": "georgiai.ttf",
+          "size": 84,
+          "y": 860,
+          "align": "center"
+        }
+      ]
+    },
+    {
+      "id": "T5",
+      "start": 31.7,
+      "dur": 3.66,
+      "anim": "rise",
+      "scrim": "full",
+      "rule": {
+        "y": 515,
+        "w": 140
+      },
+      "lines": [
+        {
+          "text": "VERANE",
+          "font": "georgia.ttf",
+          "size": 124,
+          "track": true,
+          "y": 370,
+          "align": "center"
+        },
+        {
+          "text": "RESIDENCES",
+          "font": "Montserrat-Regular.ttf",
+          "size": 30,
+          "track": true,
+          "y": 540,
+          "align": "center",
+          "color": "0xC8B48A"
+        },
+        {
+          "text": "Private viewings by appointment",
+          "font": "georgiai.ttf",
+          "size": 48,
+          "y": 640,
+          "align": "center"
+        },
+        {
+          "text": "Edited by Maria Zha-Zha C Bio",
+          "font": "Montserrat-Regular.ttf",
+          "size": 24,
+          "y": 900,
+          "align": "center",
+          "color": "0xBDB6AA"
+        },
+        {
+          "text": "Self-initiated sample portfolio project  |  Fictional brand  |  Not commissioned client work",
+          "font": "Montserrat-Regular.ttf",
+          "size": 20,
+          "y": 945,
+          "align": "center",
+          "color": "0x9A9387"
+        }
+      ]
+    }
+  ]
+}
